@@ -8,10 +8,42 @@
   <packaging>jar</packaging>
 
   <name>pj-quickstart</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/pingjiang/java-quickstart</url>
+
+    <licenses>
+        <license>
+            <name>MIT license</name>
+            <url>https://github.com/pingjiang/java-quickstart/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/pingjiang/java-quickstart</url>
+        <connection>scm:git:git@github.com:pingjiang/java-quickstart.git</connection>
+        <developerConnection>scm:git:git@github.com:pingjiang/java-quickstart.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>pingjiang</id>
+            <name>pingjiang</name>
+            <url>https://github.com/pingjiang</url>
+            <timezone>gmt+8</timezone>
+            <roles>
+                <role>Main Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <organization>
+        <name>pub2me</name>
+        <url>http://www.pub2me.com</url>
+    </organization>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
   <dependencies>
